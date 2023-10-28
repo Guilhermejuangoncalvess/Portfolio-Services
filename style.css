@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+}
+
+#section_projetos{
+    background: linear-gradient(140deg,#4D4BA2,#5B58EB);
+    width: 100%;
+    height: 99.99vh;
+}
+
+.title_projetos{
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    color: #6967bb;
+
+    padding: 3% 0 0 0 ;
+}
+
+#boxProjetos{
+    position: absolute;
+    top: 57.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr;
+    gap:35px;
+
+}
+
+.projeto_un{
+    width: 285px;
+    height: 215px;
+
+    background-color: #8B87AD;
+    border-radius: 25px;
+    box-shadow: .1px .1px 7px #30303086;
+    transition: .3s;
+}
+
+.projeto_un:hover{
+
+    transform: translate(-2%,-2%);
+    box-shadow: 5px 7px 10px #30303086;
+
+    transition: .3s;
+}
+
+.projeto_un>img{
+    width: 100px;
+    margin: 7% 33%;
+    opacity: 37%;
+    cursor: pointer;
+}
+
+.sub_projetos{
+    width: 240px;
+    text-align: center;
+    padding: 5% 0 2% 0;
+    margin: 0 auto;
+
+    font-size: 22px;
+    font-weight: bold;
+    color: #ccccccbe;
+
+    border-bottom: 1px solid #b9b9b971;
+}
+
+/*------------------------------------------------------*/
+
+#skills_xp{
+    background: #34365f;
+    height: 170.99vh;
+}
+
+.skills_xpTitle{
+    color: #6e6dbeb0;
+    text-align: center;
+    padding: 5% 0 0 0 ;
+    font-size: 75px;
+    
+    text-transform: uppercase;
+}
+
+#skills_ling{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 5% 0 2% 0;
+}
+
+
+#skills_ling>li{
+    background-color: #d4cef7;
+    padding: 35px 40px;
+    margin: 0 5%;
+    border-radius: 28px;
+    cursor: pointer;
+    
+    box-shadow: .2px .2px 10px #242424;
+    transition: .2s;
+}
+
+#skills_ling>li:hover{
+    transition: .2s;
+    transform: scale(.96);
+    box-shadow: .1px .1px 25px 5px #5552e6;
+}
+
+#skills_ling>li>img{
+    width: 150px;
+}
+
+#xps{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divXP_txt{
+    display: flex;
+    align-items: center;
+    margin: 4% 10%;
+}
+
+.divXP_txt>p{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6% 0 0 3%;
+    color: #ddd9f5;
+}
+
+.imgXp{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #514fb4;
+}
+
+.nameXp{
+    width: 160px;
+    font-size: 25px;
+    color: #ddd9f5;
+    text-align: center;
+    margin: 95% auto;
+    border-top: 2px solid #c7c7c733;
+}
+
+#guilhermeXp{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#guilhermeXp>p{
+    margin-top: -6%;
+    margin-left: -2%;
+    padding-right: 2%;
+}
