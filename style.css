@@ -6,11 +6,121 @@
     box-sizing: border-box;
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
 }
+/* ---------------------------------------------Codigo Página 1--------------------------------------------------------------------------------*/
 
+
+/*fundo*/
+.header{
+    background-image: linear-gradient(to left, #32318e, #191919);
+    display: flex;
+    align-items: center;
+}
+
+#corpo {
+    background-image: linear-gradient(to left, #32318e, #191919);
+    width: 100%;
+    height: 99.99vh;
+    position: relative;
+}
+
+/*circulo da logo*/
+
+.logo {
+    width: 200px; /* Define a largura do círculo */
+    height: 150px; /* Define a altura do círculo (igual à largura para criar um círculo perfeito) */
+    background-color: #3C3A88; /* Define a cor de fundo (pode ser qualquer cor) */
+    border-radius: 50%; /* Define o raio de borda para 50% (transforma o quadrado em um círculo) */
+    position: relative;
+    left: 25px;
+    top: 25px;
+    z-index: 2;
+}
+
+#DG {
+    color: white;
+    position: relative;
+    left: -125px;
+    bottom: -5px;
+    font-size: 230%;
+    z-index: 3;
+}
+
+#projects {
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: -240px;
+    bottom: -50px;
+    font-size: 160%;
+    z-index: 3;
+}
+
+/*Barra de navegação*/
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    padding-right: 90px;
+    position: relative;
+    left: 350px;
+    font-size: 150%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*home*/
+.home:hover{
+    color: #6967bb;
+}
+/*home*/
+.sobre:hover{
+    color: #6967bb;
+}
+
+.link-especial{
+    text-decoration: none;
+    border-radius: 8px;
+    background-image:linear-gradient(to left, #004aad, #cb6ce6) ;
+}
+
+
+
+
+/*Caixa de texto*/
+.box{
+    width: 600px; /* Define a largura do círculo */
+    height: 450px; /* Define a altura do círculo (igual à largura para criar um círculo perfeito) */
+    background-image: linear-gradient(to left, #004aad, #cb6ce6); /* Define a cor de fundo (pode ser qualquer cor) */
+    border-radius: 5%; /* Define o raio de borda para 50% (transforma o quadrado em um círculo) */
+    position: relative;
+    left: 130px;
+    top: 90px;
+}
+
+
+/*text of box*/
+
+.texto-box {
+    padding: 20px;
+    color: rgb(61, 61, 61);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------Código Página 2---------------------------------------------*/
+/*código eduardo*/
 #section_projetos{
     background: linear-gradient(140deg,#4D4BA2,#5B58EB);
     width: 100%;
     height: 99.99vh;
+    position: relative;
 }
 
 .title_projetos{
